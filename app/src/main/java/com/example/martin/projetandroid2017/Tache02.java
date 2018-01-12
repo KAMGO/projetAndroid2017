@@ -52,7 +52,6 @@ public class Tache02 extends AsyncTask<String, Void, Integer> {
             // Création du JsonReader
             InputStream input = urlConnection.getInputStream();
             InputStreamReader inputReader = new InputStreamReader(input);
-            //json.Lenient(true);
             //JsonReader json = new JsonReader(inputReader);
             /*/json.setLenient(true);
             // Lecture du fichier Json
